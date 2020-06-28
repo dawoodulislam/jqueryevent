@@ -1,0 +1,86 @@
+
+@media (max-width: 420px)
+{
+  
+}
+@media (min-width: 421px) and (max-width: 575px)
+{
+    
+}
+/* start small than sm */
+@media (max-width: 575px)
+{
+    
+}
+/* end small than sm */
+
+/* start sm */
+@media (min-width: 576px) and (max-width: 767px)
+{
+   
+}
+/* end sm */
+
+/* start md */
+@media (min-width: 768px) and (max-width: 991px)
+{
+   
+}
+/* end md */
+
+/* start lg */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+/* end lg */
+
+/* start xl */
+@media (min-width: 1300px)
+{
+
+}
+/* end xl */
+/* start xl */
+@media (min-width: 1600px)
+{
+
+}
+/* end xl */
+/*media query end*/
+
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+    transform: translateX(0);
+}
